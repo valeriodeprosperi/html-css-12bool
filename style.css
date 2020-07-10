@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+
+.container , [class*="col-"]{
+  border: 1px solid red;
+}
+
+[class*="col-"]{
+  height:300px;
+  position: relative;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.row{
+  height:300px;
+}
