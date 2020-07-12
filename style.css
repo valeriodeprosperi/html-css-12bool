@@ -14,7 +14,7 @@
   position: relative;
 }
 
-[class*="col-"] .nested{
+[class*="col-"]{
   background-color: lightcoral;
 }
 p{
